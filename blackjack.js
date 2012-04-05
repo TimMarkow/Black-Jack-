@@ -3,7 +3,7 @@
 function Card(s, n) {
     var suit = s;
     var number = n;
-    this. getNumber = function() {
+    this.getNumber = function() {
         return number;
     };
     this.getSuit = function() {
